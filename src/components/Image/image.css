@@ -1,0 +1,15 @@
+.eachImage{
+    height: 265px;
+    width: auto;
+}
+
+.image-wrapper{
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.image-wrapper:hover{
+    transform: scale(1.05);
+    z-index: 20;
+}

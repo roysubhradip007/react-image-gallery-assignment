@@ -1,0 +1,38 @@
+.image-details-container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(26, 21, 154);
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.image-details-container img{
+    width: 40%;
+    height: auto;
+    border: 0.3rem solid rgb(50, 76, 244);
+    border-radius: 1.5rem;
+}
+
+.image-details-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    width: 50%;
+}
+
+.details h1{
+    font-size: 3.5rem;
+    color: white;
+
+}
+
+.details p{
+    font-size: 1.5rem;
+    color: white;
+}
